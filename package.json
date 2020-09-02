@@ -1,0 +1,17 @@
+{
+  "name": "adress_book_challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Johan Berglund <johan.per.julius.berglund@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^5.1.0"
+  },
+  "dependencies": {
+    "superstatic": "^7.0.0"
+  },
+"scripts": { 
+  "start": "superstatic src --port 3001",
+  "cy:open": "yarn start & cyprss open"
+    }
+}
